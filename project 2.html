@@ -1,0 +1,231 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Supergirl Comic Cover</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.6/animate.min.css">
+<style type="text/css">
+
+
+h5 {
+	font-size:20px;
+	color:#bf2d00;
+    width: auto;
+    height: 100px;
+	-webkits-transform:rotate(-20deg);
+	transform:rotate(-20deg);
+    position: relative;
+	animation-name: text;
+    animation-duration: 2s;
+	animation-fill-mode: forwards;
+ 	/* Chrome, Safari, Opera */
+    -webkit-animation-name: text;
+    -webkit-animation-duration: 2s;
+	-webkit-animation-fill-mode: forwards; 
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes text {
+    0%   {color:transparent; left:0px; top:0px;}
+    100% {color:#bf2d00; left:0px; top:0px;transform:rotate(0deg);}
+}
+
+/* Standard syntax */
+@keyframes text {
+   0%   {color:transparent; left:0px; top:0px;}
+   100% {color:#bf2d00; left:0px; top:0px;transform:rotate(0deg);}
+}
+<!--
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background-color: #303030;
+	margin: 0;
+	padding: 0;
+	color: #000;
+	
+}
+h1, h3 ,h4{
+	font-style:normal;
+	font-weight:100;
+	margin: 0;
+    padding: 0;
+}
+h2{
+
+	margin: 0;
+    padding: 0;
+	color: #FFF;
+	font-size: 60px;
+	vertical-align: middle;
+}
+
+button{
+	
+	background-color: rgba(255, 255, 255, .2);
+    padding: 10px 160px;
+	border: 2px;
+	border-color: #FFF;
+}
+
+/*button:hover{
+	
+	background-color: rgba(255, 255, 255, .4);
+	margin: 0;
+    padding: 10px 100px;
+	border: 2px;
+	border-color: #FFF;
+}*/
+overlay{
+	
+	background-color: rgba(255, 255, 255, 0);
+	margin: 0;
+    padding: 10px 20px;
+	border: 2px;
+	border-color: #FFF;
+	
+	
+}
+.img-valign {
+  vertical-align: middle;
+  margin-bottom: 0.2em;
+}
+
+/* ~~ Element/tag selectors ~~ */
+ul, ol, dl { /* Due to variations between browsers, it's best practices to zero padding and margin on lists. For consistency, you can either specify the amounts you want here, or on the list items (LI, DT, DD) they contain. Remember that what you do here will cascade to the .nav list unless you write a more specific selector. */
+	padding: 0;
+	margin: 0;
+}
+
+a img { /* this selector removes the default blue border displayed in some browsers around an image when it is surrounded by a link */
+	border: none;
+}
+
+/* ~~ Styling for your site's links must remain in this order - including the group of selectors that create the hover effect. ~~ */
+a:link {
+	color:#fff;
+	text-decoration: none; /* unless you style your links to look extremely unique, it's best to provide underlines for quick visual identification */
+}
+
+a:hover, a:active, a:focus { /* this group of selectors will give a keyboard navigator the same hover experience as the person using a mouse. */
+	text-decoration: none;
+	color:#303030;
+}
+
+/* ~~ this container surrounds all other divs giving them their percentage-based width ~~ */
+.container {
+	width: 100%;
+/* a min-width may be desirable to keep this layout from getting too narrow. This keeps line length more readable in the side columns. IE6 does not respect this declaration. */
+	background-color: #FFFFFF;
+	margin: 0 auto; /* the auto value on the sides, coupled with the width, centers the layout. It is not needed if you set the .container's width to 100%. */
+	
+}
+
+/* ~~ This is the layout information. ~~ 
+
+1) Padding is only placed on the top and/or bottom of the div. The elements within this div have padding on their sides. This saves you from any "box model math". Keep in mind, if you add any side padding or border to the div itself, it will be added to the width you define to create the *total* width. You may also choose to remove the padding on the element in the div and place a second div within it with no width and the padding necessary for your design.
+
+*/
+.content {
+	padding: 2px 0;
+	color: 0;
+	}
+
+/* ~~ This grouped selector gives the lists in the .content area space ~~ */
+.content ul, .content ol { 
+	padding: 0 15px 15px 40px; /* this padding mirrors the right padding in the headings and paragraph rule above. Padding was placed on the bottom for space between other elements on the lists and on the left to create the indention. These may be adjusted as you wish. */
+}
+
+/* ~~ miscellaneous float/clear classes ~~ */
+.fltrt {  /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* this class can be used to float an element left in your page. The floated element must precede the element it should be next to on the page. */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* this class can be placed on a <br /> or empty div as the final element following the last floated div (within the #container) if the overflow:hidden on the .container is removed */
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+.responsive-crop{
+width:100%;
+height:400px;	
+background-image: url(images/art21.jpg);
+background-size:cover;
+background-position   : 70% 10%;     /* or: center center */
+
+
+}
+
+}
+.container .content center p {
+	font-size: 200%;
+}
+.square {
+	text-align: justify;
+}
+.img-circular{
+ float:left;
+ width: 230px;
+ height: 230px;
+ background-size: cover;
+ display: block;
+ border-radius: 115px;
+ -webkit-border-radius: 115px;
+ -moz-border-radius: 115px;
+}
+greenText {
+	color: #7fe22a;
+}
+.greenText {
+	color: #7fe22a;
+}
+.blueText {
+	color: #48beef;
+}
+.pinkText {
+	color: #f92672;
+}
+.purpleText {
+	color: #ae82ff;
+}
+
+-->
+</style>
+</head>
+<body >
+
+
+
+<div class="responsive-crop">
+  <div style="position:relative; top:40%; text-align:center; ;">
+<button><h2>CN Tower Model</h2></button>
+	</div>
+</div>
+
+<div>
+
+
+<div Style="width:75%; font-size:150%; margin-left:auto; margin-right:auto; color:#FFF; padding-top:15px; padding-bottom:15px; ">
+  <h3 class="square" style=" padding-top:30px; padding-bottom:15px;"> I've learned a lot from my engineering degree thus far and part of what I've learned thus far is how to model in AutoDesk's Inventor, how to use the Arduino hardware, and hone my programming skills. </h3>
+  <h3 class="square" style=" padding-top:30px; padding-bottom:15px;">With that information I have started a new project where I can excercise my new skills.</h3>
+  <h3 class="square" style=" padding-top:30px; padding-bottom:15px;">I have modeled the CN Tower and have exported the files for 3D printing. The model printed in olive green is the first itteration of the model. As you can see the main tower is not at the correct scale to the main observation deck and restaurant.</h3>
+</div>
+</div>  
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="js/wow.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+
+</html>
+
+

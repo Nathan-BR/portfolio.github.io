@@ -1,0 +1,414 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Nathan Brown-Robinson Profile</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.6/animate.min.css">
+<style type="text/css">
+
+
+h5 {
+	font-size:20px;
+	color:#bf2d00;
+    width: auto;
+    height: 100px;
+	-webkits-transform:rotate(-20deg);
+	transform:rotate(-20deg);
+    position: relative;
+	animation-name: text;
+    animation-duration: 2s;
+	animation-fill-mode: forwards;
+ 	/* Chrome, Safari, Opera */
+    -webkit-animation-name: text;
+    -webkit-animation-duration: 2s;
+	-webkit-animation-fill-mode: forwards; 
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes text {
+    0%   {color:transparent; left:0px; top:0px;}
+    100% {color:#bf2d00; left:0px; top:0px;transform:rotate(0deg);}
+}
+
+/* Standard syntax */
+@keyframes text {
+   0%   {color:transparent; left:0px; top:0px;}
+   100% {color:#bf2d00; left:0px; top:0px;transform:rotate(0deg);}
+}
+<!--
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background-color: #FFFFFF;
+	margin: 0;
+	padding: 0;
+	color: #000;
+	
+}
+h1, h3 ,h4{
+	font-style:normal;
+	font-weight:100;
+	margin: 0;
+    padding: 0;
+}
+h2{
+
+	margin: 0;
+    padding: 0;
+	color: #FFF;
+	font-size: 30px;
+	vertical-align: middle;
+}
+
+button{
+	
+	background-color: rgba(255, 255, 255, .2);
+	margin: 0;
+    padding: 10px 20px;
+	border: 2px;
+	border-color: #FFF;
+}
+
+button:hover{
+	
+	background-color: rgba(255, 255, 255, .4);
+	margin: 0;
+    padding: 10px 20px;
+	border: 2px;
+	border-color: #FFF;
+}
+overlay{
+	
+	background-color: rgba(255, 255, 255, 0);
+	margin: 0;
+    padding: 10px 20px;
+	border: 2px;
+	border-color: #FFF;
+	
+	
+}
+.img-valign {
+  vertical-align: middle;
+  margin-bottom: 0.2em;
+}
+
+/* ~~ Element/tag selectors ~~ */
+ul, ol, dl { /* Due to variations between browsers, it's best practices to zero padding and margin on lists. For consistency, you can either specify the amounts you want here, or on the list items (LI, DT, DD) they contain. Remember that what you do here will cascade to the .nav list unless you write a more specific selector. */
+	padding: 0;
+	margin: 0;
+}
+
+a img { /* this selector removes the default blue border displayed in some browsers around an image when it is surrounded by a link */
+	border: none;
+}
+
+/* ~~ Styling for your site's links must remain in this order - including the group of selectors that create the hover effect. ~~ */
+a:link {
+	color:#fff;
+	text-decoration: none; /* unless you style your links to look extremely unique, it's best to provide underlines for quick visual identification */
+}
+
+a:hover, a:active, a:focus { /* this group of selectors will give a keyboard navigator the same hover experience as the person using a mouse. */
+	text-decoration: none;
+	color:#303030;
+}
+
+/* ~~ this container surrounds all other divs giving them their percentage-based width ~~ */
+.container {
+	width: 100%;
+/* a min-width may be desirable to keep this layout from getting too narrow. This keeps line length more readable in the side columns. IE6 does not respect this declaration. */
+	background-color: #FFFFFF;
+	margin: 0 auto; /* the auto value on the sides, coupled with the width, centers the layout. It is not needed if you set the .container's width to 100%. */
+	
+}
+
+/* ~~ This is the layout information. ~~ 
+
+1) Padding is only placed on the top and/or bottom of the div. The elements within this div have padding on their sides. This saves you from any "box model math". Keep in mind, if you add any side padding or border to the div itself, it will be added to the width you define to create the *total* width. You may also choose to remove the padding on the element in the div and place a second div within it with no width and the padding necessary for your design.
+
+*/
+.content {
+	padding: 2px 0;
+	color: 0;
+	}
+
+/* ~~ This grouped selector gives the lists in the .content area space ~~ */
+.content ul, .content ol { 
+	padding: 0 15px 15px 40px; /* this padding mirrors the right padding in the headings and paragraph rule above. Padding was placed on the bottom for space between other elements on the lists and on the left to create the indention. These may be adjusted as you wish. */
+}
+
+/* ~~ miscellaneous float/clear classes ~~ */
+.fltrt {  /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* this class can be used to float an element left in your page. The floated element must precede the element it should be next to on the page. */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* this class can be placed on a <br /> or empty div as the final element following the last floated div (within the #container) if the overflow:hidden on the .container is removed */
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+.responsive-crop{
+width:100%;
+height:650px;	
+background-image: url(images/new.jpg);
+background-size:cover;
+/*background-position:50% 30%; /* IE fix */
+}
+.responsive-crop2{
+width:100%;
+height:560px;	
+background:url(images/creative3.jpg);
+background-size:cover;
+background-position: 50% 20%;
+}
+.responsive-crop3{
+width:100%;
+height:560px;	
+background:url(images/Tech2.jpg);
+background-size:cover;
+background-position: 50% 80%;
+}
+.responsive-crop4{
+width:100%;
+height:560px;	
+background:url(images/det1.jpg);
+background-size:cover;
+background-position: 50% 40%;
+}
+.container .content center p {
+	font-size: 200%;
+}
+.square {
+	text-align: justify;
+}
+.img-circular{
+ float:left;
+ margin:30px;
+ width: 230px;
+ height: 230px;
+ display: block;
+ background-position:50% 50%;
+ border-radius: 115px;
+ -webkit-border-radius: 115px;
+ -moz-border-radius: 115px;
+}
+.img-circular:hover{
+ float:left;
+ width: 250px;
+ height: 250px;
+ margin:20px;
+ display: block;
+ background-position:50% 50%;
+ border-radius: 125px;
+ -webkit-border-radius: 125px;
+ -moz-border-radius: 125px;
+}
+.img-circular:active{
+ float:left;
+ margin:30px;
+ width: 230px;
+ height: 230px;
+ display: block;
+ background-position:50% 50%;
+ border-radius: 115px;
+ -webkit-border-radius: 115px;
+ -moz-border-radius: 115px;
+}
+greenText {
+	color: #7fe22a;
+}
+.greenText {
+	color: #7fe22a;
+}
+.blueText {
+	color: #48beef;
+}
+.pinkText {
+	color: #f92672;
+}
+.purpleText {
+	color: #ae82ff;
+}
+
+-->
+</style>
+</head>
+<body >
+<div class="responsive-crop">
+  <div style="text-align:center; position:relative;top: 500px;">
+	<button style="height:57px;"><a href="projects.html"><h2>Projects</h2></a></button>
+  &nbsp;&nbsp;&nbsp;
+	<button style="height:57px;"><a href="http://www.cas.mcmaster.ca/cas/0template1.php?902">
+    <h2><img class="img-valign" src="images/MC.png" width="23" height="auto" alt="" /> Mechatronics Engineering</h2></a></button>
+&nbsp;&nbsp;&nbsp;
+	<button style="height:57px;"><a href="Contact.html"><h2>Contact</h2></a></button>
+  </div>
+  
+  <div style = "text-align:center; position:relative;top: 220px">					  
+  <font color = "#FFF">
+    <h1>Nathan Brown-Robinson</h1>
+    </font>
+  </div> 
+  
+</div>
+
+<div class="container">
+  <div class="content">
+  <center><p> Hello.</p>
+    <p>You don't know me yet, but we're gonna fix that.</p> 
+  </center>
+  <br>
+  </div>
+</div>
+
+
+<div class="container">  
+	<center>
+	<img src="images/Business Cards.png" width="620" height="auto" alt="" />
+    </center>
+  <div class="wow bounceInRight" data-wow-delay="0.2s" data-wow-duration="1.5s" style="text-align:left; position:relative; color:#bf2d00; font-size:200%; width:200px; top:-400px; padding-left: 350px; left:50%;">
+      Take a card<br /><img src="images/arrow1.png" width="150px" height="auto" />
+	</div>
+</div>
+
+<div class="container" style="background:#303030; margin-top:-110px;">
+  <div Style="width:75%; font-size:150%; margin-left:auto; margin-right:auto; color:#FFF; padding-top:45px; padding-bottom:45px; ">
+  <h3 class="square"> So let's say you were looking to hire someone, and let's just assume for the moment that someone is me. You are probably going to need to know a little bit about who I am, what im good at, and what I can bring to the table in terms of my skills, and experience. The short version is that you only need to know three things.</h3>
+  </div>
+</div>
+
+<div class="responsive-crop2">
+<div class="wow fadeInDown" style="position:relative; top:40%; text-align:center; ;"> 
+<button style="background-color:rgba(255, 255, 255, .4);"><h2 style="font-size:900%;"> I'm Creative</h2></button>
+</div>
+</div>
+
+   
+<div class="container">
+  <div Style="width:75%; font-size:150%; margin-left:auto; margin-right:auto; ">
+  <h3 class="square" style=" padding-top:45px; padding-bottom:25px;"> Being creative has always been a part of who I am. From a very young age I was involved in Art Gallary of Ontario art camps, and I realize thats not very relavent anymore but it tought me something important. The lesson was not to discount every idea imediatly and explore every possible avenue of the idea, which could include fesability, available resources, and ability to learn. Creativity has always been  intrinsically linked to the arts, however this is not the case in the real world. Very impressive creative acomplishments come in the form of technology or mechanical machines. </h3>
+  <h3 class="square" >Below are examples of my creativity and learning ability in  traditional arts, design, and technology.</h3>
+  </div>
+</div>    
+
+
+  <div style="margin-left:auto; width:870px; margin-right:auto;">
+    
+    <div class="wow bounceInLeft"  >
+		<a href="project 1.html"><div class="img-circular" style="background-image:url(images/art1.jpg); ">
+    	</div></a>
+	</div>
+
+  	<div class="wow bounceInUp" >
+		<a href="project 2.html"><div class="img-circular" style="background-image:url(images/art2.jpg); ">
+  		</div></a>
+ 	</div>
+  
+ 	<div class="wow bounceInRight"  >
+    	<a href="project 3.html"><div class="img-circular" style="background-image:url(images/art3.jpg); ">
+ 		</div></a>
+
+  
+</div>
+</div>
+
+<div class="container" style="padding-bottom:30px; background:#FFF; padding-top:300px; ">
+</div>
+
+<div class="responsive-crop3" >
+<div class="wow fadeInDown" style="position:relative; top:40%; text-align:center; ;"> 
+<button style="background-color:rgba(255, 255, 255, .4);"><h2 style="font-size:600%;">Im a Technophile</h2></button>
+</div>
+</div>
+
+<div class="container" style="background:#303030;">
+  <div Style="width:75%; font-size:150%; margin-left:auto; margin-right:auto; color:#FFF; padding-top:15px; padding-bottom:15px; ">
+  <h3 style=" padding-top:30px; padding-bottom:30px;"><span class="greenText">.define.<strong>technology </strong></span>{ <br />
+    Technology is a very large heading underwhich many things<span class="blueText">.fall</span> ;<br />
+    So it's important to clarify<span class="blueText">.exactly</span> what we're talking about when we're talking tech;<br />
+    When I talk about technology Im talking about the <span class="pinkText">design</span>, rapid<span class="blueText">.prototyping</span>, and <span class="purpleText">fabrication</span> of ideas with mechanical or electrical<span class="pinkText">.components</span>;<br />
+    }</h3>
+  <h3 style=" padding-top:30px; padding-bottom:30px;"><span class="greenText">.this.could.be.anything.from</span> {<br />
+    3D<span class="purpleText">.Modeling</span>;<br />
+    3D<span class="purpleText">.Printing</span>;<br />
+    circuit<span class="blueText">.Design</span>;</h3>
+  <h3 style=" padding-top:30px; padding-bottom:30px;"><span class="greenText">.to</span> {<br />
+    assembling desktop.<span class="pinkText">computers</span>;    <br />
+    programming<span class="pinkText">.Java</span>;<br />
+    programming<span class="pinkText">.C</span>;<br />
+    webdesign<span class="pinkText">.Html</span>;<br />
+    arduino<span class="pinkText">.UNO</span>; <br />
+    }  </h3>
+  <h3 class="square" style=" padding-top:30px; padding-bottom:30px;">Maybe it's the aspect of control, or the feeling of self acomplishment when you finally get something working but there is almost nothing like the fulfillment of completing a project - technology is one of the only things that gives me that rush.</h3>
+  </div>  
+</div>
+
+
+<div class="container" style="margin-left:auto; width:870px; margin-right:auto; background:#303030;">
+
+    <div class="wow bounceInLeft">
+		<div class="img-circular" style="background-image:url(images/Tech1.jpg);">
+    	</div>
+	</div>
+
+  	<div class="wow bounceInUp">
+		<div class="img-circular" style="background-image:url(images/Tech.jpg);">
+  		</div>
+ 	</div>
+  
+ 	<div class="wow bounceInRight">
+    	<div class="img-circular" style="background-image:url(images/Tech3.jpg);">
+ 		</div>
+    </div>
+</div>
+ 
+<div class="container" style="padding-bottom:30px; background:#303030; padding-top:260px; ">
+</div>
+
+
+<div class="container" style="margin-left:auto; width:870px; margin-right:auto; background:#303030;">
+ <div class="wow bounceInLeft" >
+		<div class="img-circular" style="background-image:url(images/Tech4.jpg);">
+    	</div>
+	</div>
+
+  	<div class="wow bounceInUp" >
+		<div class="img-circular" style="background-image:url(images/Tech5.jpg);">
+  		</div>
+ 	</div>
+  
+ 	<div class="wow bounceInRight" >
+    	<div class="img-circular" style="background-image:url(images/Tech6.jpg);">
+ 		</div>
+    </div>
+</div>
+
+<div class="container" style="padding-bottom:30px; background:#303030; padding-top:300px; ">
+</div>
+
+<div class="responsive-crop4" >
+<div class="wow fadeInDown" style="position:relative; top:40%; text-align:center; ;"> 
+<button style="background-color:rgba(48, 48, 48, .4);"><h2 style="font-size:600%;">Im Determined</h2></button>
+</div>
+</div>
+
+<div class="container">
+  <div Style="width:75%; font-size:150%; margin-left:auto; margin-right:auto; ">
+  <h3 class="square" style=" padding-top:30px; padding-bottom:15px;"> You could be the most creative, inventive, intelligent person in the world and none of it would matter if you aren't determined. People who are driven to achive their goals are the ones who get things done, go far in life, and actually work untill project completion.</h3>
+  </div>
+</div>  
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="js/wow.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
+
